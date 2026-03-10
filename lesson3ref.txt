@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lesson 3 | Objects, Methods, & Properties</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<style>
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #fdfcf0;
+    background-image: radial-gradient(#ffdae0 2px, transparent 2px);
+    background-size: 30px 30px;
+    margin: 0;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #5d4037;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 5px solid #c5d8a1;
+    border-radius: 50px;
+    padding: 60px;
+    max-width: 850px;
+    box-shadow: 20px 20px 0px #86a35e;
+    line-height: 1.8;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #86a35e;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 0px #ffdae0;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.highlight {
+    color: #d14d72;
+    font-weight: 700;
+    background: #ffdae0;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.back-btn {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    padding: 12px 30px;
+    background: #86a35e;
+    color: white;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 5px 0px #5d4037;
+}
+
+.back-btn:hover {
+    background: #ff85a2;
+    transform: translateY(3px);
+    box-shadow: 0 2px 0px #d14d72;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Lesson 3 Reflection</h1>
+    
+    <div class="content">
+        <p>
+            In Lesson 3, I dived deeper into the core characteristics of JavaScript, learning that it is an <span class="highlight">Interpreted Language</span> that relies on the browser to execute, and a <span class="highlight">Scripting Language</span> designed to perform tasks by interacting with other elements. A major takeaway was understanding the difference between <span class="highlight">Client-Side Scripting</span>, which executes on the user's machine, and server-side scripting. This shift in location is what makes websites so responsive today.
+        </p>
+
+        <p>
+            The most significant part of this lesson was mastering the <span class="highlight">Object-Oriented Programming (OOP)</span> nature of JavaScript. I learned that almost everything in the browser is an object—from the window itself to the date and time. By using <span class="highlight">Methods</span> (actions objects perform) and <span class="highlight">Properties</span> (subsections of an object), I can manipulate elements with precision. Concepts like <span class="highlight">Events</span>, which trigger code based on user interaction (like clicking or loading), and <span class="highlight">Parameters</span> have helped me understand how to build truly interactive features.
+        </p>
+
+        <p>
+            Finally, I explored the practical side of JS objects like <span class="highlight">Window, Document, Math, and Navigator</span>. These objects provide the tools to do everything from opening new windows and performing complex math to identifying which browser a visitor is using. I also learned about <span class="highlight">Parsing</span>, the process where the browser converts raw text into a format the JavaScript engine can actually execute. This lesson solidified my understanding that JavaScript is not just a language; it is a powerful bridge that connects existing components to create a seamless, dynamic user experience.
+        </p>
+    </div>
+
+    <a href="L3nav.html" class="back-btn">⬅ Back to Navigation</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AP Interactive</title>
+<style>
+:root {
+    --sage-green: #86a35e;
+    --sakura-pink: #ffb7c5;
+    --soft-white: #fffdf5;
+}
+
+body {
+    font-family: 'Kristen ITC', 'Bradley Hand', 'Segoe Print', cursive;
+    background-image: url('apinteractivebg.jpg'); 
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(226, 239, 217, 0.85); 
+    background-blend-mode: lighten;
+    
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.center-table {
+    background: var(--soft-white);
+    border: 4px solid var(--sage-green);
+    border-radius: 40px;
+    padding: 40px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(134, 163, 94, 0.2);
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+h1 { color: var(--sage-green); font-size: 45px; margin-bottom: 10px; }
+h3 { color: var(--sakura-pink); font-size: 24px; margin-bottom: 30px; }
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.navbar a, .back-home {
+    padding: 12px 25px;
+    border-radius: 50px;
+    background: white;
+    color: var(--sage-green);
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid var(--sakura-pink);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.navbar a:hover, .back-home:hover {
+    background: var(--sakura-pink);
+    color: white;
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 10px 20px rgba(255, 183, 197, 0.5);
+}
+
+.back-home {
+    margin-top: 30px;
+    border-color: var(--sage-green);
+    color: var(--sage-green);
+}
+
+.back-home:hover {
+    background: var(--sage-green);
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+<a href="aplesson1.html">Lesson 1</a>
+<a href="aplesson2.html">Lesson 2</a>
+<a href="aplesson3.html">Lesson 3</a>
+<a href="aplesson4.html">Lesson 4</a>
+<a href="aplesson5.html">Lesson 5</a>
+<a href="aplesson6.html">Lesson 6</a>
+<a href="myreflection.html" style="border-color: var(--sage-green);">My Reflection</a>
+</div>
+
+<div class="center-table">
+<h1>💖 Ap Interactive 💖</h1>
+<h3>Yeuffa Yumiko R. Gata - 9 Fidelity</h3>
+</div>
+
+<a href="qtr4homepage.html" class="back-home">🏠 Back to Homepage</a>
+
+</body>
+</html>

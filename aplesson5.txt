@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<title>Aralin 5: Impormal na Sektor</title>
+<style>
+body { font-family: 'Quicksand', sans-serif; background-color: #f0f7ff; color: #1e3a5f; margin: 0; padding: 20px; }
+.outer-border { max-width: 650px; margin: 0 auto; padding: 30px; border: 5px solid #4a90e2; border-radius: 50px; background-color: #ffffff; box-shadow: 0 10px 30px rgba(74, 144, 226, 0.2); }
+.header-pic-slot { width: 100%; height: 250px; background-color: #e3f2fd; border-radius: 30px; margin-bottom: 25px; display: flex; align-items: center; justify-content: center; border: 3px dashed #4a90e2; overflow: hidden; }
+.header-pic-slot img { width: 100%; height: 100%; object-fit: cover; }
+h1 { font-family: 'Fredoka One', cursive; color: #0056b3; font-size: 30px; margin-bottom: 25px; text-align: center; }
+h2 { font-family: 'Fredoka One', cursive; font-size: 20px; margin-top: 0; color: #007bff; }
+.box { padding: 20px; border-radius: 25px; margin: 15px 0; border: 2px solid #b3d7ff; transition: transform 0.3s ease; }
+.box:hover { transform: scale(1.02); border-color: #007bff; }
+.c1 { background-color: #e3f2fd; }
+.c2 { background-color: #bbdefb; }
+.c3 { background-color: #f8fbff; }
+ul { padding-left: 20px; margin: 10px 0; }
+.footer-nav { text-align: left; margin-top: 25px; }
+.back-btn { display: inline-block; padding: 12px 30px; background: #0056b3; color: white; text-decoration: none; font-weight: bold; border-radius: 20px; transition: 0.3s; }
+.back-btn:hover { background: #007bff; }
+</style>
+</head>
+<body>
+
+<div class="outer-border">
+<div class="header-pic-slot">
+    <img src="impormalbg.jpg" alt="Impormal na Sektor">
+</div>
+
+<h1>Aralin 5: Impormal na Sektor</h1>
+
+<div class="box c1">
+<h2>Ano ang Impormal na Sektor?</h2>
+<p>Sektor na walang pormal na dokumento, hindi nakatala sa pamahalaan, at hindi bahagi ng pambansang kita. Ayon kay <strong>W. Arthur Lewis</strong>, ito ay hanapbuhay na kailangan sa mga bansang papaunlad (developing countries).</p>
+</div>
+
+<div class="box c2">
+<h2>Mga Anyo</h2>
+<ul>
+<li><strong>Hindi Naka-rehistro:</strong> Walang permiso (hal. Sidewalk vendors).</li>
+<li><strong>Hindi Naka-tala:</strong> Legal na negosyo ngunit hindi nagdedeklara ng tamang kita (walang resibo).</li>
+<li><strong>Ilegal:</strong> Mga gawaing ipinagbabawal ng batas.</li>
+</ul>
+</div>
+
+<div class="box c3">
+<h2>Mga Batas at Programa</h2>
+<ul>
+<li><strong>RA 8425:</strong> Pagkilala sa impormal na sektor bilang disadvantaged sector.</li>
+<li><strong>RA 9710:</strong> Magna Carta of Women.</li>
+<li><strong>RA 7796 (TESDA):</strong> Pagsasanay para sa teknikal at bokasyonal na kasanayan.</li>
+<li><strong>DILP (DOLE) & SEA-K (DSWD):</strong> Pangkabuhayang pagsasanay at puhunan.</li>
+<li><strong>PhilHealth (RA 7875):</strong> Segurong pangkalusugan.</li>
+<li><strong>Cash-for-Work (CWP):</strong> Tulong sa mga biktima ng kalamidad.</li>
+</ul>
+</div>
+
+<div class="box c1">
+<h2>Katangian at Salik</h2>
+<ul>
+<li>Maliit na puhunan o walang puhunan.</li>
+<li>Makaligtas sa buwis at red tape (masalimuot na proseso).</li>
+<li>Pag-iwas sa regulasyon ng pamahalaan.</li>
+<li>Paraan para mapagtagumpayan ang matinding kahirapan.</li>
+</ul>
+</div>
+
+<div class="box c2">
+<h2>Epekto sa Ekonomiya</h2>
+<ul>
+<li>Pagbaba ng nalilikom na buwis ng pamahalaan.</li>
+<li>Posibleng paglaganap ng mga ilegal na gawain.</li>
+<li>Banta sa proteksyon at kapakanan ng mga mamimili.</li>
+</ul>
+</div>
+
+<div class="footer-nav">
+<a href="apinteractive.html" class="back-btn">Bumalik</a>
+</div>
+</div>
+
+</body>
+</html>

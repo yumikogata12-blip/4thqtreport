@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lesson 4 | Events, Popups, & Variables</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<style>
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #fdfcf0;
+    background-image: radial-gradient(#ffdae0 2px, transparent 2px);
+    background-size: 30px 30px;
+    margin: 0;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #5d4037;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 5px solid #c5d8a1;
+    border-radius: 50px;
+    padding: 60px;
+    max-width: 850px;
+    box-shadow: 20px 20px 0px #86a35e;
+    line-height: 1.8;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #86a35e;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 0px #ffdae0;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.highlight {
+    color: #d14d72;
+    font-weight: 700;
+    background: #ffdae0;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.back-btn {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    padding: 12px 30px;
+    background: #86a35e;
+    color: white;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 5px 0px #5d4037;
+}
+
+.back-btn:hover {
+    background: #ff85a2;
+    transform: translateY(3px);
+    box-shadow: 0 2px 0px #d14d72;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Lesson 4 Reflection</h1>
+    
+    <div class="content">
+        <p>
+            Lesson 4 opened my eyes to the "trigger" system of the web. I learned that <span class="highlight">Events</span> are the forces that drive functionality—without them, functions would simply remain idle. Whether it is a simple mouse click, a key press, or the act of resizing a window, these events allow a website to listen and respond to the user. I found the variety of attributes like <span class="highlight">onmouseover</span> and <span class="highlight">onsubmit</span> particularly interesting, as they allow for dynamic visual changes and essential form validation before data is even sent to a server.
+        </p>
+
+        <p>
+            I also explored the different types of <span class="highlight">Popup Boxes</span>: Alert, Prompt, and Confirm. These tools are invaluable for communication, whether I need to send a simple warning, gather input from a user, or ask them to verify a choice. It is fascinating how a single line of code can create a bridge between the browser window and the user's intent.
+        </p>
+
+        <p>
+            Lastly, I learned about <span class="highlight">Variables</span>, which act as the "memory" of a script. By using the <span class="highlight">var</span> keyword, I can temporarily store values, strings, or logical Booleans. I noted that JavaScript’s "loosely typed" nature is a double-edged sword; while it makes coding more flexible and faster to write, it also requires me to be extra careful to avoid hard-to-detect errors. This lesson taught me that being a good programmer isn't just about writing code, but about managing data and anticipating how the user will interact with the system.
+        </p>
+    </div>
+
+    <a href="L4nav.html" class="back-btn">⬅ Back to Navigation</a>
+</div>
+
+</body>
+</html>

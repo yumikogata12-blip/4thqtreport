@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+<head><title>JavaScript</title>
+
+</head>
+
+<body>
+
+<h1>My First JavaScript code</h1>
+
+<script type="text/JavaScript">
+
+<!-
+
+document.write("Displaying text using JavaScript");
+
+//->
+
+</script>
+
+</body>
+
+</html>

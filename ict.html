@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TLE-ICT | Quarters Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+    --matcha: #a8c69f;
+    --strawberry: #ff85a2;
+    --chocolate: #5d4037;
+    --cream: #fdfcf0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--cream);
+    background-image: radial-gradient(#a8c69f 1px, transparent 1px);
+    background-size: 30px 30px;
+    margin: 0;
+    padding: 40px;
+}
+
+.main-container {
+    background: white;
+    border: 6px solid var(--matcha);
+    border-radius: 40px;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 0px rgba(0,0,0,0.05);
+}
+
+.quarter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.divider {
+    border-left: 3px dashed var(--strawberry);
+    padding-left: 40px;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: var(--matcha);
+    text-align: center;
+    text-shadow: 2px 2px 0px var(--strawberry);
+    font-size: 50px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+h2 { font-family: 'Fredoka One', cursive; font-size: 26px; color: var(--chocolate); }
+h3 { font-size: 18px; color: var(--matcha); margin: 20px 0 10px 0; }
+ul { list-style: none; padding: 0; }
+li { margin-bottom: 8px; }
+
+a {
+    display: block;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--chocolate);
+    font-weight: bold;
+    border: 2px solid var(--matcha);
+    transition: 0.2s;
+}
+
+a:hover { background: var(--matcha); color: white; }
+.q4-link { border-color: var(--strawberry); }
+.q4-link:hover { background: var(--strawberry); }
+
+.back-home {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 12px 25px;
+    background: var(--chocolate);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<h1>🍵 TLE-ICT Dashboard 🍓</h1>
+
+<div class="main-container">
+    <div class="quarter-grid">
+        <div class="left-align">
+            <h2>3rd Quarter</h2>
+            <h3>Lessons</h3>
+            <ul>
+                <li><a href="browseroutput1.html">Lesson 1</a></li>
+                <li><a href="browseroutput2.html">Lesson 2</a></li>
+                <li><a href="browseroutput3.html">Lesson 3</a></li>
+            </ul>
+            <h3>Events</h3>
+            <ul>
+                <li><a href="englishmonth.html">English Month</a></li>
+                <li><a href="mathmonth.html">Math Month</a></li>
+                <li><a href="espmonth.html">Esp Month</a></li>
+            </ul>
+        </div>
+
+        <div class="divider left-align">
+            <h2>4th Quarter</h2>
+            <h3>Lessons</h3>
+            <ul>
+                <li><a href="L1nav.html" class="q4-link">Lesson 1</a></li>
+                <li><a href="L2nav.html" class="q4-link">Lesson 2</a></li>
+                <li><a href="L3nav.html" class="q4-link">Lesson 3</a></li>
+                <li><a href="L4nav.html" class="q4-link">Lesson 4</a></li>
+            </ul>
+            <h3>Events</h3>
+            <ul>
+                <li><a href="noliplay.html" class="q4-link">Noli Me Tangere</a></li>
+                <li><a href="mapehmonth.html" class="q4-link">MAPEH Month</a></li>
+                <li><a href="mda.html" class="q4-link">Miting De Avance</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<a href="qtr4homepage.html" class="back-home">Back to Homepage</a>
+
+</body>
+</html>

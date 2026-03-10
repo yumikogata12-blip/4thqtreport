@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lesson 1 Reflection</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<style>
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #fdfcf0;
+    background-image: radial-gradient(#ffdae0 2px, transparent 2px);
+    background-size: 30px 30px;
+    margin: 0;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #5d4037;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 5px solid #c5d8a1;
+    border-radius: 50px;
+    padding: 60px;
+    max-width: 850px;
+    box-shadow: 20px 20px 0px #86a35e;
+    line-height: 1.8;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #86a35e;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 0px #ffdae0;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.highlight {
+    color: #d14d72;
+    font-weight: 700;
+    background: #ffdae0;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.back-btn {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    padding: 12px 30px;
+    background: #86a35e;
+    color: white;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 5px 0px #5d4037;
+}
+
+.back-btn:hover {
+    background: #ff85a2;
+    transform: translateY(3px);
+    box-shadow: 0 2px 0px #d14d72;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Lesson 1 Reflection</h1>
+    
+    <div class="content">
+        <p>
+            In this lesson regarding <span class="highlight">TLE-ICT 9 Fourth Quarter</span>, I explored the fascinating evolution of the web from static pages to the dynamic, interactive environments we use today. I learned that while static pages are like digital brochures that remain unchanged, <span class="highlight">dynamic websites</span> are alive—reacting to user actions and preferences. Understanding this distinction helped me realize why platforms like Facebook and YouTube feel so personal and responsive.
+        </p>
+
+        <p>
+            The core of this interactivity is <span class="highlight">JavaScript</span>, the most popular scripting language on the internet. I was surprised to learn that it started as "Mocha" before becoming the powerhouse it is today. As a client-side, high-level language, it processes code right on my computer using English-like words, making it both fast for the user and accessible for developers to learn. It adds the "behavior" to the web, allowing elements to react to mouse clicks and page loads.
+        </p>
+
+        <p>
+            I also discovered the practical capabilities of JavaScript, such as <span class="highlight">Form Validation</span>, which saves processing time by checking inputs locally, and the use of <span class="highlight">Cookies</span> to track user habits and preferences. When combined with CSS, it creates DHTML, enabling the beautiful visual effects that make a site truly eye-pleasing. It is the engine behind the real-time updates on Google and the seamless scrolling on social media.
+        </p>
+
+        <p>
+            However, this lesson also taught me to be mindful of the <span class="highlight">disadvantages</span>. Because JavaScript is transparent to the client, source codes can be reverse-engineered, and malicious scripts can sometimes be delivered to unsuspecting users. This balance of power and security is a crucial lesson for any aspiring web developer. Overall, this lesson has given me a much deeper appreciation for the logic that makes our favorite digital spaces work.
+        </p>
+    </div>
+
+    <a href="L1nav.html" class="back-btn">⬅ Back to Navigation</a>
+</div>
+
+</body>
+</html>
