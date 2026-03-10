@@ -3,59 +3,52 @@
 <head>
 <meta charset="utf-8">
 <title>TLE-ICT</title>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
 <style>
-body{font-family:'Quicksand',sans-serif;background:#d4e09b;text-align:center;padding:40px;margin:0;color:#5d4037;}
-h1{font-family:'Fredoka One',cursive;color:#ff85a2;text-shadow:3px 3px 0px #fff, 6px 6px 0px rgba(139,94,60,0.2);font-size:60px;margin-bottom:30px;}
-h2{font-family:'Fredoka One',cursive;color:#8b5e3c;font-size:38px;margin-bottom:15px;}
-h3{color:#8b5e3c;font-size:15px;margin:10px auto 30px auto;background:rgba(255,255,255,0.6);padding:12px;border-radius:20px;max-width:70%;border:2px dashed #ffb3c1;}
-section{margin:40px auto;padding:35px;border:6px solid #fff;border-radius:60px;width:80%;max-width:850px;box-shadow:0 15px 30px rgba(139,94,60,0.15);transition:all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);}
-section:hover{transform:scale(1.03);box-shadow:0 20px 40px rgba(255,133,162,0.2);}
-#lessons{background:#ffe5ec;border-color:#ffdae0;}
-#q3-lessons{background:#e0fbfc;border-color:#c0f4f7;} /* New Q3 Section */
-#activities{background:#ffc2d1;border-color:#ffb3c1;}
-ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;justify-content:center;gap:18px;}
-a.lesson-link,a.activity-link{display:inline-block;padding:14px 28px;border-radius:40px;background:#fff;color:#8b5e3c;text-decoration:none;font-weight:bold;font-size:18px;border:3px solid #f8edeb;box-shadow:0 8px 0px #e7c6c6;transition:all 0.2s;}
-a.lesson-link:hover,a.activity-link:hover{transform:translateY(4px);box-shadow:0 2px 0px #e7c6c6;background:#ff85a2;color:#fff;border-color:#fff;}
-.back-home{display:inline-block;margin-top:50px;padding:18px 45px;border-radius:60px;background:#8b5e3c;color:#fcefe9;text-decoration:none;font-weight:bold;font-size:1.2rem;border:4px solid #fff;box-shadow:0 10px 20px rgba(0,0,0,0.1);transition:0.3s;}
-.back-home:hover{background:#ff85a2;color:#fff;transform:translateY(-5px);box-shadow:0 15px 25px rgba(255,133,162,0.3);}
-section::before{content:"✨";position:absolute;top:15px;left:25px;font-size:20px;color:#8b5e3c;}
-section::after{content:"✨";position:absolute;top:15px;right:25px;font-size:20px;color:#8b5e3c;}
+body{font-family:'Kristen ITC','Bradley Hand','Segoe Print',cursive;background:linear-gradient(135deg,#FFF0F5,#FFE6F3);text-align:center;padding:20px;margin:0;}
+h1{color:#FF69B4;text-shadow:2px 2px #FFC0CB;font-size:50px;margin-bottom:30px;}
+h2{color:#FF69B4;text-shadow:1px 1px #FFC0CB;font-size:36px;margin-bottom:20px;}
+section{margin:30px auto;padding:25px;border:3px dashed #FFB6C1;border-radius:25px;box-shadow:0 6px 12px rgba(255,182,193,0.3);width:80%;transition:all 0.3s;}
+section:hover{transform:scale(1.02);}
+#lessons{background:#FFF5E6;}
+#activities{background:#E0FFF5;}
+ul{list-style:none;padding:0;margin:0;font-size:20px;}
+li{margin:15px 0;}
+a.lesson-link,a.activity-link,a.back-home{display:inline-block;padding:10px 20px;margin:5px;border:2px solid #FFB6C1;border-radius:20px;background:#FFD9EC;color:#FF69B4;text-decoration:none;font-weight:bold;box-shadow:0 4px 8px rgba(255,182,193,0.3);transition:all 0.3s;}
+a.lesson-link:hover,a.activity-link:hover,a.back-home:hover{background:#FFB6C1;color:white;transform:scale(1.05);}
+.back-home{margin-top:30px;}
+h3{color:#FF69B4;font-size:20px;margin-bottom:30px;}
 </style>
 </head>
 <body>
 
-<h1>🍵 TLE-ICT 🍓</h1>
+<h1>🌸 TLE-ICT 🌸</h1>
 
 <section id="lessons">
 <h2>📚 Lessons</h2>
 <ul>
-<li><a href="#" class="lesson-link">Lesson 1</a></li>
-<li><a href="#" class="lesson-link">Lesson 2</a></li>
-<li><a href="#" class="lesson-link">Lesson 3</a></li>
-</ul>
-</section>
-
-<section id="q3-lessons">
-<h2>📘 3rd Quarter Lessons:</h2>
-<ul>
-<li><a href="#" class="lesson-link">Q3 Lesson 1</a></li>
-<li><a href="#" class="lesson-link">Q3 Lesson 2</a></li>
-<li><a href="#" class="lesson-link">Q3 Lesson 3</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonone.html" target="_blank" class="lesson-link">Lesson 1</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessontwo.html" target="_blank" class="lesson-link">Lesson 2</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonthree.html" target="_blank" class="lesson-link">Lesson 3</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonfour.html" target="_blank" class="lesson-link">Lesson 4</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonfive.html" target="_blank" class="lesson-link">Lesson 5</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonsix.html" target="_blank" class="lesson-link">Lesson 6</a></li>
 </ul>
 </section>
 
 <section id="activities">
 <h2>🎉 School Activities</h2>
-<h3><b>Note:</b> Some photos are captured by my classmates, Paham, and Standard Press. Thank you!</h3>
+<h3> PS: Some of the Photos are not mine and are captured by my classmates and by Paham and Standard Press, Thank you po! </h3>
 <ul>
-<li><a href="#" class="activity-link">Buwan ng Wika</a></li>
-<li><a href="#" class="activity-link">Intrams</a></li>
-<li><a href="#" class="activity-link">Science Month</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/buwanngwika.html" target="_blank" class="activity-link">Buwan ng Wika</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/intramurals.html" target="_blank" class="activity-link">Intrams</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/science%20month.html" target="_blank" class="activity-link">Science Month</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apmonth.html" target="_blank" class="activity-link">AP Month</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/teachersmonth.html" target="_blank" class="activity-link">Teacher's Month</a></li>
+<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/ictmonth.html"_blank" class="activity-link">Ict Month</a></li>
 </ul>
 </section>
 
-<a href="qtr4homepage.html" class="back-home">🏠 Back to Homepage</a>
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/Webpage.html" class="back-home">🏠 Back to Homepage</a>
 
 </body>
 </html>

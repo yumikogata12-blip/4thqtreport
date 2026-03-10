@@ -42,7 +42,7 @@ h3{color:#FF69B4;text-shadow:1px 1px #FFC0CB;font-size:28px;margin-bottom:20px;}
 <div class="navbar">
 <a href="personal%20space.html">🏠 My Personal Space</a>
 <a href="tle-ict.html">💻 TLE-ICT</a>
-<a href="AP interactive.html">📚 Araling Panlipunan</a>
+<a href="apinteractive.html">📚 Araling Panlipunan</a>
 </div>
 
 <div class="center-table">
