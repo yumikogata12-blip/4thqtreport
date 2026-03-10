@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Homepage</title>
+<style>
+body{font-family:'Kristen ITC','Bradley Hand','Segoe Print',cursive;background:url('hellokitty.jpg') no-repeat center center fixed;background-size:cover;margin:0;padding:0;display:flex;justify-content:center;align-items:center;min-height:100vh;flex-direction:column;}
+.navbar{margin-bottom:30px;}
+.navbar a{display:inline-block;margin:0 15px;padding:10px 25px;border:2px solid #FF69B4;border-radius:20px;background:#FFDEE9;color:#FF69B4;text-decoration:none;font-weight:bold;box-shadow:0 4px 8px rgba(255,182,193,0.3);transition:all 0.3s;}
+.navbar a:hover{background:#FFB6C1;color:white;transform:scale(1.05);}
+.center-table{border:3px solid #FFB6C1;box-shadow:0 6px 12px rgba(255,182,193,0.4);border-radius:25px;background:#FFF0F5;padding:30px;width:80%;text-align:center;}
+h1{color:#FF69B4;text-shadow:2px 2px #FFC0CB;font-size:50px;margin-bottom:10px;}
+h3{color:#FF69B4;text-shadow:1px 1px #FFC0CB;font-size:28px;margin-bottom:20px;}
+
+.footer-section {
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.back-btn {
+    text-decoration: none;
+    color: #FF1493;
+    font-weight: bold;
+    font-size: 18px;
+    background: #FFF0F5;
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: 2px dashed #FF69B4;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.2);
+    transition: all 0.3s ease;
+}
+.back-btn:hover {
+    background: #FFB6C1;
+    color: white;
+    border-style: solid;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 105, 180, 0.4);
+}
+</style>
+</head>
+
+<body>
+<div class="navbar">
+<a href="personal%20space.html">🏠 My Personal Space</a>
+<a href="tle-ict.html">💻 TLE-ICT</a>
+<a href="AP interactive.html">📚 Araling Panlipunan</a>
+</div>
+
+<div class="center-table">
+<h1>💖 Welcome to My Webpage! 💖</h1>
+<h3>Yeuffa Yumiko R. Gata - 9 Fidelity</h3>
+</div>
+
+</body>
+</html>

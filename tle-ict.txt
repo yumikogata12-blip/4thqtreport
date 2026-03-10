@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TLE-ICT</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<style>
+body{font-family:'Quicksand',sans-serif;background:#d4e09b;text-align:center;padding:40px;margin:0;color:#5d4037;}
+h1{font-family:'Fredoka One',cursive;color:#ff85a2;text-shadow:3px 3px 0px #fff, 6px 6px 0px rgba(139,94,60,0.2);font-size:60px;margin-bottom:30px;}
+h2{font-family:'Fredoka One',cursive;color:#8b5e3c;font-size:38px;margin-bottom:15px;}
+h3{color:#8b5e3c;font-size:15px;margin:10px auto 30px auto;background:rgba(255,255,255,0.6);padding:12px;border-radius:20px;max-width:70%;border:2px dashed #ffb3c1;}
+section{margin:40px auto;padding:35px;border:6px solid #fff;border-radius:60px;width:80%;max-width:850px;box-shadow:0 15px 30px rgba(139,94,60,0.15);transition:all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);}
+section:hover{transform:scale(1.03);box-shadow:0 20px 40px rgba(255,133,162,0.2);}
+#lessons{background:#ffe5ec;border-color:#ffdae0;}
+#q3-lessons{background:#e0fbfc;border-color:#c0f4f7;} /* New Q3 Section */
+#activities{background:#ffc2d1;border-color:#ffb3c1;}
+ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;justify-content:center;gap:18px;}
+a.lesson-link,a.activity-link{display:inline-block;padding:14px 28px;border-radius:40px;background:#fff;color:#8b5e3c;text-decoration:none;font-weight:bold;font-size:18px;border:3px solid #f8edeb;box-shadow:0 8px 0px #e7c6c6;transition:all 0.2s;}
+a.lesson-link:hover,a.activity-link:hover{transform:translateY(4px);box-shadow:0 2px 0px #e7c6c6;background:#ff85a2;color:#fff;border-color:#fff;}
+.back-home{display:inline-block;margin-top:50px;padding:18px 45px;border-radius:60px;background:#8b5e3c;color:#fcefe9;text-decoration:none;font-weight:bold;font-size:1.2rem;border:4px solid #fff;box-shadow:0 10px 20px rgba(0,0,0,0.1);transition:0.3s;}
+.back-home:hover{background:#ff85a2;color:#fff;transform:translateY(-5px);box-shadow:0 15px 25px rgba(255,133,162,0.3);}
+section::before{content:"✨";position:absolute;top:15px;left:25px;font-size:20px;color:#8b5e3c;}
+section::after{content:"✨";position:absolute;top:15px;right:25px;font-size:20px;color:#8b5e3c;}
+</style>
+</head>
+<body>
+
+<h1>🍵 TLE-ICT 🍓</h1>
+
+<section id="lessons">
+<h2>📚 Lessons</h2>
+<ul>
+<li><a href="#" class="lesson-link">Lesson 1</a></li>
+<li><a href="#" class="lesson-link">Lesson 2</a></li>
+<li><a href="#" class="lesson-link">Lesson 3</a></li>
+</ul>
+</section>
+
+<section id="q3-lessons">
+<h2>📘 3rd Quarter Lessons:</h2>
+<ul>
+<li><a href="#" class="lesson-link">Q3 Lesson 1</a></li>
+<li><a href="#" class="lesson-link">Q3 Lesson 2</a></li>
+<li><a href="#" class="lesson-link">Q3 Lesson 3</a></li>
+</ul>
+</section>
+
+<section id="activities">
+<h2>🎉 School Activities</h2>
+<h3><b>Note:</b> Some photos are captured by my classmates, Paham, and Standard Press. Thank you!</h3>
+<ul>
+<li><a href="#" class="activity-link">Buwan ng Wika</a></li>
+<li><a href="#" class="activity-link">Intrams</a></li>
+<li><a href="#" class="activity-link">Science Month</a></li>
+</ul>
+</section>
+
+<a href="qtr4homepage.html" class="back-home">🏠 Back to Homepage</a>
+
+</body>
+</html>

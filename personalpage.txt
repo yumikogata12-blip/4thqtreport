@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My Personal Space</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<style>
+body{font-family:'Quicksand',sans-serif;background:#86a35e;margin:0;padding:40px;display:flex;flex-direction:column;align-items:center;color:#2d3a1a;}
+h1{font-family:'Fredoka One',cursive;color:#fff;text-shadow:4px 4px 0px #ff85a2;font-size:65px;margin-bottom:20px;letter-spacing:3px;}
+h2{font-family:'Fredoka One',cursive;color:#ff85a2;font-size:35px;margin:0 0 15px 0;text-align:center;}
+.about-me-row{display:flex;justify-content:center;align-items:center;gap:25px;margin-bottom:50px;animation:float 4s ease-in-out infinite;}
+.about-me-pic{border:8px solid #ffdae0;border-radius:40px;box-shadow:0 15px 0px #708a4b;transition:0.3s;}
+.about-me-box{background:#ffdae0;border:4px solid #fff;border-radius:30px;padding:25px;min-width:250px;box-shadow:0 10px 20px rgba(0,0,0,0.1);color:#d14d72;}
+table{background:rgba(255,183,197,0.9);border:5px solid #fff;border-radius:50px;margin:25px auto;padding:30px;width:95%;max-width:1000px;box-shadow:0 20px 0px #708a4b;transition:transform 0.3s ease;}
+table:hover{transform:scale(1.01);}
+#favourites-table{background:#ffe5ec;}
+#circle-friends-table{background:#ffc2d1;}
+#family-table{background:#ffb3c1;}
+.fav-container{display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap;}
+.fav-img{border:8px solid #fff;border-radius:50px;width:220px;transform:rotate(3deg);box-shadow:0 10px 15px rgba(0,0,0,0.1);}
+.friend-row{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-bottom:30px;}
+.friend-img,.friend-video{width:300px;border:8px solid #fff;border-radius:40px;box-shadow:0 10px 15px rgba(0,0,0,0.1);}
+.friend-desc-box{background:rgba(255,255,255,0.5);border-radius:30px;padding:20px;flex:1;min-width:280px;border:2px dashed #ff85a2;}
+.appreciation-box{background:#fff;color:#ff85a2;border-radius:30px;padding:20px;margin-top:20px;font-weight:700;border:4px solid #ffb3c1;font-size:18px;}
+.family-row{display:flex;justify-content:center;gap:30px;flex-wrap:wrap;}
+.family-member{width:280px;background:rgba(255,255,255,0.3);padding:15px;border-radius:40px;}
+.family-img{width:100%;border-radius:30px;border:4px solid #fff;}
+.family-desc{margin-top:15px;font-size:14px;font-weight:bold;color:#fff;text-shadow:1px 1px 2px rgba(0,0,0,0.2);}
+.back-home{display:inline-block;margin:40px;padding:20px 45px;border-radius:60px;background:#ff85a2;color:white;text-decoration:none;font-weight:bold;font-size:1.4rem;border:4px solid #fff;box-shadow:0 10px 0px #d14d72;transition:0.2s;}
+.back-home:hover{transform:translateY(5px);box-shadow:0 5px 0px #d14d72;background:#ffb3c1;}
+@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-15px);}}
+ul{list-style:none;padding:0;}
+li::before{content:"⭐";margin-right:10px;}
+
+/* Added style to center the video placeholder */
+.video-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+</style>
+</head>
+<body>
+
+<h1>🌸 My Personal Space 🌸</h1>
+
+<div class="about-me-row">
+<img src="personalpic.jpg" alt="My Picture" width="220" class="about-me-pic">
+<div class="about-me-box">
+<p><b>🍓 Name:</b> Yeuffa Yumiko R. Gata</p>
+<p><b>🎂 Age:</b> 14 years old</p>
+<p><b>🎈 Birthday:</b> March 19, 2011</p>
+</div>
+</div>
+
+<table id="favourites-table">
+<tr><td><h2>🌟 My Favourites</h2></td></tr>
+<tr><td>
+<div class="fav-container">
+<ul style="font-size:19px;text-align:left;color:#d14d72;">
+<li><b>Favorite Color:</b> Baby Pink</li>
+<li><b>Favorite Animal:</b> Cat</li>
+<li><b>Favorite Food:</b> Bread and Pastries</li>
+<li><b>Favorite Hobby:</b> Reading, Drawing, Gaming</li>
+<li><b>Favorite Movie:</b> Interstellar, Harry Potter</li>
+</ul>
+<img src="kazuha.jpg" alt="Favorite Image" class="fav-img">
+</div>
+</td></tr>
+</table>
+
+<table id="circle-friends-table">
+<tr><td><h2 style="color:#fff;">💞 My Circle of Friends</h2></td></tr>
+<tr><td>
+<div class="friend-row">
+<img src="skinnies.jpg" alt="Skinnies" class="friend-img">
+<div class="friend-desc-box">
+<b style="color:#d14d72;">🌿 The Skinnies:</b>
+<ul style="color:#d14d72;">
+<li>Joy: Funny, Kind, Honest</li>
+<li>Jayzel: Funny, Artistic, Unique, Joyful</li>
+<li>Martin: Smart, Artistic, Hardworking</li>
+<li>Rolly: Funny, Sporty, Helpful</li>
+<li>Chloe: Kind, Funny, Artistic</li>
+<li>Nicole: Kind, Religious, Honest</li>
+<li>Renz: Sporty, Religious, Funny</li>
+<li>Mark: Funny, Smart, Kind</li>
+<li>Dash: Smart, Funny, Helpful</li>
+<li>Ayeka: Kind, Funny, Helpful</li>
+<li>Mauer: Talented, Kind, Religious, Smart</li>
+</ul>
+</div>
+</div>
+
+<div class="friend-row">
+<img src="tatsulok.jpg" alt="Tatsulok" class="friend-img">
+<div class="friend-desc-box">
+<b style="color:#d14d72;">📐 Tatsulok:</b>
+<p style="color:#d14d72;">This group is built on a strong foundation of trust and shared laughter. We are a small, tight-knit circle that values deep conversations and supporting one another through every challenge.</p>
+</div>
+</div>
+
+<div class="video-footer-container">
+    <video controls class="friend-video">
+        <source src="fg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p style="color:#fff; font-weight:bold; margin-top:10px;">✨ Watch our memories! ✨</p>
+</div>
+
+<div class="appreciation-box">
+I want to take a moment to express my heartfelt appreciation to all of my amazing friends! You all are a treasure! 💖
+</div>
+</td></tr>
+</table>
+
+<table id="family-table">
+<tr><td><h2 style="color:#fff;">👨‍👩‍👧 My Family</h2></td></tr>
+<tr><td>
+<div class="family-row">
+<div class="family-member">
+<img src="fam.jpg" alt="Family Pic 1" class="family-img">
+<div class="family-desc">My family has 7 members. We love talking and laughing together!</div>
+</div>
+<div class="family-member">
+<img src="fam2.jpg" alt="Family Pic 2" class="family-img">
+<div class="family-desc">Even though we aren't perfect, I wouldn't wish for any other family.</div>
+</div>
+</div>
+</td></tr>
+</table>
+
+<a href="qtr4homepage.html" class="back-home">🍓 Return Home 🍵</a>
+
+</body>
+</html>
